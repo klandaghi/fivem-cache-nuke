@@ -13,14 +13,14 @@ ECHO Clearing Default Install cache files
 ECHO =========================================================
 
 REM Deletes the cache folder
-@RD /S C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache
+@RD /S /Q C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\cache
 
 
 REM Deletes the servver-cache folder
-@RD /S C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\server-cache
+@RD /S /Q C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\server-cache
 
 REM Deletes the server-cache-priv folder
-@RD /S C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\server-cache-priv
+@RD /S /Q C:\Users\%username%\AppData\Local\FiveM\FiveM.app\data\server-cache-priv
 
 REM Displays Text that the work has been done.
 ECHO =========================================================
